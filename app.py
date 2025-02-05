@@ -4,7 +4,22 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 # 🚀 Authenticate Google Sheets API
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("skillbridge_creds.json", scope)
+import os
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import json
+
+# Load Google Cloud credentials from Render environment variables
+creds_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
+if creds_json:
+    creds_dict = json.loads(creds_json)
+    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+    client = gspread.authorize(creds)
+else:
+    raise ValueError("❌ GOOGLE_APPLICATION_CREDENTIALS environment variable is missing!")
+
 client = gspread.authorize(creds)
 sheet = client.open("DoD SkillBridge Job Listings").sheet1  
 
