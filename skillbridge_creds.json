@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ardent-oven-449418-d4",
+  "private_key_id": "f388cd80b51bf1ad157c215861c6b7190d2e81cf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGeFaOpdxIiOt0\nbwGw0xF+r69qedV7uT0X506wgK1Dmeae70eA5BB60uO/HzXp/i+cvseVxwjSRDGf\npDQHbZfmyJ3Aj9UJIV9YaDMxqy4A0KISHphqV38PJkOpRQg/jJJnmAfzHI+K7WB0\ni4fkO02NIy0z7D+RmbxASk7NBOZ3Hnze9zkG8h6FSn1NWi7w5TVQImQL6rYy1yZL\nOWYkBzZ1vMeChmcFz7JxwoJlQO/q3eLtP5AaLKT/mUH1QOiWBLDh6lwfRFZ3IgLv\nEzWqBMmlDS3q7kZDP019Nl4ectCKbAGf7h7sPbPV8JcGxp931WvgmU2VyFg7EuzC\nXBqSF1W3AgMBAAECggEACh8N7vq3Yqg/iwcJiN54CG67h+G3COG3+LWY6423CE5b\na/nbkCT7+tTcEh2XLsaB4BZR8FSfobV3lbgWgoB3cX4D9CjW85RqRoRog/JtB1Px\nx/HGfQ8sPCC2l6BychHgT3x51KSSuheD8T2XtwRtM92PixPTuWr5JjWD55cF4nIq\nRAvGOFhxpwbM//QI5NLIIw9kaogc76JbEXgaH17MncCQNUi+YLZl62qTNSbjY2lZ\nuePWoDt+XBMvSazleJQBjccgkHGedUAltT5S2EghMhWR0eV2tn8VGmD0saoyWbhq\nObI4ZIV3eVgzvuWJdT6BOhP+oiuUnnkrTCuhBj4JvQKBgQD9kMmpZPrPOU8ZSBpS\ne2tS+sSfpvrznb5RLtTBYtVDbLIL5pq8Les27GVwvRb8lqKv0xRKQW2ht9U2IlMz\noa7Ma0SOqPQRkq0RQTQ5VIZUFS5iy5CbdntlnMdYJd2Roa383kjE67fnqNEZcHFO\nFaXba/kzhrQw/XsCNafojrV4tQKBgQDIYCMMARmJOBvQk8s6d5Gu7GaNVvFOqM+n\nbyfrr4Ub9a/7LvpPffJMU2w2ghm/RWq+OOewATSr6os4wkEscp7G862tu5gjLJci\nkbgeYtLlerjSSXWykJNfunz1Wl4RteMVOqKTEudodh6GtR3L0+9qn4C00sSIuAzL\nl1f+9Vj0OwKBgQDFWS4LICOwqtrsQ1jxP0uNnszvsSd5+hjI2JkQFlsDihKc/pMJ\nyPdbnOtqrlC4sIjYLYGKNZgdGJXh9x8ofTstsIMAQXEMSEtYtZXu1OFjicS7cdIP\nnUx3Dml8KqRjFyHyQBME6K0OqS5tDT2yV1jqCQRAXSPbST22v4n6jy+gTQKBgQCd\njyLf1JmM0cblWuGqJs0yXAdDyoLS1GD8iqY8aHblhmqLu+Ptz95P8CUeM20lfuMx\nkrN0LW6KZFJ3HiB7X+HEFWaTPvihZ/WrpCPAGPs2oSpliIf5EkAgPRb3IsjnajuW\nvNWLiojWFlNon1A/r3YKREPDbBxIWVkOWgJCpA//cwKBgEad5OL4gwKJEDQ1Xf3U\nuBFWyBTVLTAouzzwNs4M1fXLTbaIo6+8nDZJZtZkz0Lz8D3Blrl45UBZnj/JH8Zp\n8q+SvCq9nVzu5UFX8YM4Khcvj2Xby3P31K2V/Rr0e9lMpvBRQUl4s/sG/ZRn/KDD\n3Ten86Pqtt1kRAqbrWRmgSt4\n-----END PRIVATE KEY-----\n",
+  "client_email": "skillbridge-data-access@ardent-oven-449418-d4.iam.gserviceaccount.com",
+  "client_id": "105119552553757942005",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/skillbridge-data-access%40ardent-oven-449418-d4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
