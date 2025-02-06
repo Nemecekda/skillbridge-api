@@ -41,7 +41,7 @@ def get_skillbridge_jobs():
 
         # Match keyword in title, company, or description
         if keyword in job_title or keyword in company_name or keyword in job_description:
-            # Apply location filter if provided
+            # Apply location filter correctly
             if not location_filter or location_filter in job_location:
                 matching_jobs.append({
                     "job_title": row[0],
@@ -56,3 +56,4 @@ def get_skillbridge_jobs():
 # Run Flask app
 if __name__ == "__main__":
     app.run(port=5000)
+
