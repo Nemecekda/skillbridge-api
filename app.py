@@ -31,6 +31,9 @@ def get_skillbridge_jobs():
     header = all_jobs[0]  # Extract headers
     data = all_jobs[1:]   # Exclude header row
 
+    # Debugging: Print fetched job count
+    print(f"Fetched {len(data)} jobs from Google Sheets.")
+
     # Filter jobs based on keyword in job title, company, or job description
     matching_jobs = []
     for row in data:
@@ -52,7 +55,7 @@ def get_skillbridge_jobs():
                 })
 
     if not matching_jobs:
-        return jsonify({"error": "No matching jobs found for the given keyword and location."}), 404
+        return jsonify({"error": f"No matching jobs found for keyword '{keyword}' and location '{location_filter}'."}), 404
 
     return jsonify(matching_jobs[:10])  # Return the top 10 matches
 
