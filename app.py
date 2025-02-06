@@ -51,6 +51,9 @@ def get_skillbridge_jobs():
                     "skillbridge_url": f"https://skillbridge.osd.mil/opportunities/{row[0].replace(' ', '-').lower()}"
                 })
 
+    if not matching_jobs:
+        return jsonify({"error": "No matching jobs found for the given keyword and location."}), 404
+
     return jsonify(matching_jobs[:10])  # Return the top 10 matches
 
 # Run Flask app
